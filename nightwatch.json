@@ -1,0 +1,54 @@
+{
+  "src_folders" : ["bin"],
+  "webdriver" : {
+    "start_process": true,
+    "server_path": "node_modules/.bin/chromedriver",
+    "port": 9515
+  },
+  "test_workers": {
+    "enabled": true,
+    "workers": 10
+  },
+  "test_settings": {
+    "default": {
+      "desiredCapabilities": {
+        "browserName": "chrome",
+        "chromeOptions": {
+          "args": [
+            "--headless"
+          ]
+        }
+      }
+    },
+    "env1": {
+      "desiredCapabilities": {
+        "browserName": "chrome",
+        "chromeOptions": {
+          "args": [
+            "--headless"
+          ]
+        }
+      }
+    },
+    "env2": {
+      "desiredCapabilities": {
+        "browserName": "chrome",
+        "chromeOptions": {
+          "args": [
+            "--headless"
+          ]
+        }
+      }
+    },
+    "env3": {
+      "desiredCapabilities": {
+        "browserName": "chrome",
+        "chromeOptions": {
+          "args": [
+            "--headless"
+          ]
+        }
+      }
+    }
+  }
+}
